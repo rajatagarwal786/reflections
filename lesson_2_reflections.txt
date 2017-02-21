@@ -13,13 +13,26 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	We can do that by cmparing the stating area with the most recent commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When we want 2 paths to run parallel.
 
 How do the diagrams help you visualize the branch structure?
+	
+	It shows exactly how the branch structure is right now leaving nothing to 
+	imagination.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	It is included in the parent branch.
+	We represent it this way because it is now a part of the same label.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	The advantage is that it just merges whenever possible without the need us
+	thinking it through.
